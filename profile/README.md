@@ -130,12 +130,12 @@ A standard based connectivity interface exposed through Cloud Networking / SDWAN
 
 AWI is being designed for DevOps consumption, so that inter cluster workload connections can be provisioned from within application domain.  
 
-SDWAN/Cloud WAN Controller vendor implementations would need to create mechanisms to create DevOps authorization flow, so that NetOps teams are in complete control of the SDWAN functions and services. This is to ensure that DevOps automation happens in the context of networking and security policy set up by NetOps team. This authorization process is outside of AWI scope. We have created an authorization mechanism for Cisco SDWAN. It is one of the mechanisms how Cisco could create different differentiation once AWI is an open standard. 
+SDWAN/Cloud WAN Controller vendor implementations would need to create mechanisms to create DevOps authorization flow, so that NetOps teams are in complete control of the SDWAN functions and services. This is to ensure that DevOps automation happens in the context of networking and security policy set up by NetOps team. This authorization process is outside of AWI scope. We have created an authorization mechanism for Cisco SDWAN. 
 
 NetOps admins can also use the intent-based interface to provision connectivity should they choose to. Controller , or API Access & Authorization is based on the user credentials that's provisioned within AWI operator or CLI. AWI inherintly does not specify who can or cannot use the API (Application Programmer Interface).
 
 ## Why the need for an open system and standardization?  
 
-An open eco-system and standardization would accelerate adoption across the industry, and adoption by networking vendors would put hybrid/multi cloud network controllers in the front and center as the default multi-network domain connectivity infrastructure provider. Standardization gives Cisco advantage against multi-cloud connectivity companies such as Aviatrix, Prosimo and Alkira. They are solving a similar industry problem with their respective proprietary interfaces. 
+An open eco-system and standardization would accelerate adoption across the industry, and adoption by networking vendors would put hybrid/multi cloud network controllers in the front and center as the default multi-network domain connectivity infrastructure provider. 
 
 Today’s SDWAN/Cloud Network vendor controllers are proprietary and have proprietary interfaces. Compute infrastructure automation systems like Kubernetes have no integration with vendor controllers for external connectivity because of the need to deal with different proprietary interfaces. AWI would provide a vendor agnostic interface that can be used from within Kubernetes, so that connectivity can be provisioned using Kubectl. This would remove the need for Kubernetes maintainers to integrate with each vendor controller.  
