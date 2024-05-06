@@ -20,8 +20,8 @@ The overarching objective is to foster an open, plugin-based ecosystem for netwo
 + [[awi-infra-guard](https://github.com/app-net-interface/awi-infra-guard)]
     This repository allows discovery of resources in a cloud provider (AWS/GCP/Azure) environment that can be used in the connext of a connection. A resource could be a VPC, subnet, instance, a kubernetes service, namespace etc. This is used within kube-awi. It can also run independently on MacOS/Linux . 
 
-+ [[kube-awi](https://github.com/app-net-interface/kube-awi)]
-    AWI k8s operator. With AWI operator installed, user can connect VPCs and VRF in multi-cloud environment using kubectl. 
++ [[awi-catalyst-sdwan-operator](https://github.com/app-net-interface/awi-catalyst-sdwan-operator)]
+    AWI k8s operator for Catalyst SDWAN. With AWI operator installed, user can connect VPCs and VRF in multi-cloud environment using kubectl. 
 
 + [[awi-install](https://github.com/app-net-interface/awi-install)]
     Helm chart(s) to install kubernetes operator. Also has script to do a full stack implementation. 
