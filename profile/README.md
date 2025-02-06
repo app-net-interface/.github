@@ -1,13 +1,10 @@
 # Introduction
 
-Traditionally, core network or security  operations have been the purview of NetOps and SecOps teams, who have specialized in the configuration, maintenance, monitoring, and automation of physical and virtual network and security components.
-While we don't see NetOps, or SecOps roles changing much in managing infrastructure, configuration and policy, the shift towards cloud-native applications and microservices based architecture necessitates a shift left outlook for network and security vendors for exposing connectivity and security provisioning workflows. This shift is crucial for enabling automated and efficient network connectivity and access control from the application owner side.
+ANI (Application Network Interface) standardizes multi-cloud networking and its core constructs, enabling seamless provisioning of connectivity and access control. Traditionally, NetOps and SecOps teams have managed vendor-specific networks; however, as cloud-native and microservices architectures evolve, NetOps, SecOps, and CloudOps must adopt a more automated, standardized approach to multi-cloud and WAN networking. ANI provides interfaces that allow these teams to configure network resources and enforce security controls without delving into the specifics of each cloud or WAN vendor.
 
-**ANI** (Application Network Interface) will enable devOps to interact directly with "core networking" controllers, facilitating automated resource provisioning, configuration, and security enforcement based on application needs. ANI provides a set of normalized interfaces that abstracts the complexity of certain network operations, allowing CloudOps/Dev(Sec)Ops teams to visualize and configure networking resources, provision connectivity, enforce access control to ensure application performance and security without in-depth networking knowledge. 
+AWI (Application WAN Interface), a subset of ANI, offers a programmable interface for SD-WAN and CloudWAN controllers. It enables teams to establish enterprise WAN connectivity with defined service levels and access policies, while supporting vendor plugins.
 
-**AWI** (Application WAN Interface) can be considered as a subset of ANI. It provides an application centric programmable interface for [SD]WAN and CloudWAN controllers. This interface allows DevOps and CloudOps to program enterprise WAN solutions to provision connectivity with “network SLO (Service Level Objectives)” and define workload access policy at layer 4 across networking domains. It is a vendor agnostic interface and has provisions for networking([SD]WAN) vendors to write their controller program logic as a plugin into AWI interface.
-
-The overarching objective is to foster an open, plugin-based ecosystem for network visibility, connectivity and access control. By inviting vendors to contribute their plugins and leverage this open interface, the initiative aims to simplify how application developers bridge network domains and interconnect application components, paving the way for more streamlined and secure network management in the era of cloud operations and DevSecOps.
+Together, ANI and AWI create an open, plugin-based ecosystem that simplifies multi-cloud networking, streamlines network management, and connects network domains for secure, efficient operations.
 
 
 # Repositories
