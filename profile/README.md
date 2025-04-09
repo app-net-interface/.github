@@ -1,6 +1,6 @@
 # Introduction
 
-ANI (Application Network Interface) standardizes multi-cloud networking and its core constructs, enabling seamless provisioning of connectivity and access control. Traditionally, NetOps and SecOps teams have managed vendor-specific networks; however, as cloud-native and microservices architectures evolve, NetOps, SecOps, and CloudOps must adopt a more automated, standardized approach to multi-cloud and WAN networking. ANI provides interfaces that allow these teams to configure network resources and enforce security controls without delving into the specifics of each cloud or WAN vendor.
+ANI (Application Network Interface) provides a normalized interface for multi-cloud `workload discovery and networking`, enabling seamless visibility, and provisioning of `connectivity and access control` for networking domain and workloads alike. Traditionally, NetOps and SecOps teams have managed vendor-specific networks; however, as cloud-native and microservices architectures evolve, NetOps, SecOps, and CloudOps must adopt a more automated, standardized approach to multi-cloud and WAN networking. ANI provides interfaces that allow these teams to configure network resources and enforce security controls without delving into the specifics of each cloud or WAN vendor.
 
 AWI (Application WAN Interface), a subset of ANI, offers a programmable interface for SD-WAN and CloudWAN controllers. It enables teams to establish enterprise WAN connectivity with defined service levels and access policies, while supporting vendor plugins.
 
